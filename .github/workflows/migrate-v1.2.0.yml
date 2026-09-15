@@ -3,8 +3,6 @@ name: Migrate Souzoku Simulator v1.2.0
 on:
   push:
     branches: [main]
-    paths:
-      - '.github/workflows/migrate-v1.2.0.yml'
   workflow_dispatch:
 
 permissions:
@@ -71,8 +69,8 @@ jobs:
 
           candidates = []
           seen = set()
-          url_re = re.compile(r'https?://[^\s\"\'<>\\]+')
-          href_re = re.compile(r'(?:href|url)[=:\s]+[\"\']([^\"\']+)', re.I)
+          url_re = re.compile(r"https?://[^\s\"'<>\\]+")
+          href_re = re.compile(r"(?:href|url)[=:\s]+[\"']([^\"']+)", re.I)
 
           def add_candidate(url):
               url = html.unescape(url).replace('\\u0026', '&').replace('\\/', '/')
@@ -92,7 +90,6 @@ jobs:
               for m in url_re.findall(decoded): add_candidate(m)
               for m in href_re.findall(decoded): add_candidate(m)
 
-          # Prefer URLs explicitly tied to the declared filename or common file-download hosts/paths.
           ranked = sorted(
               candidates,
               key=lambda u: (
@@ -114,7 +111,6 @@ jobs:
                   matches.append((url, final_url, body))
                   print(f'Exact SHA-256 match: {final_url}')
                   break
-              # Avoid flooding logs; only mention plausible ZIP/file candidates.
               if asset_name in urllib.parse.unquote(url) or 'zip' in content_type.lower():
                   print(f'Candidate mismatch: {final_url} sha256={digest} bytes={len(body)} type={content_type}')
 
