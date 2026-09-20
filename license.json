@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
-  "productId": "souzoku-simulator",
-  "mode": "email-registration",
-  "enabled": true,
-  "endpointUrl": "https://script.google.com/macros/s/AKfycbyTbNTY9xcKFojugDQhK-LisZHe3P2QGuYx6x-POayQlSfuYDhoA-4VKV66D9yfM2DI/exec",
-  "cacheDays": 30,
-  "deviceBinding": false,
-  "seatLimit": null,
-  "registrationPolicy": "paid-note-link",
-  "notes": "Activated after anonymous health check and Business Platform Dashboard admin flow passed. Existing v1.4.0 clients do not read this file; v1.5.0 clients use it for purchaser email verification."
+    "schemaVersion":  1,
+    "productId":  "souzoku-simulator",
+    "mode":  "email-registration",
+    "enabled":  true,
+    "endpointUrl":  "https://script.google.com/macros/s/AKfycbyTbNTY9xcKFojugDQhK-LisZHe3P2QGuYx6x-POayQlSfuYDhOa-4VKV66D9yfM2Dl/exec",
+    "cacheDays":  30,
+    "deviceBinding":  false,
+    "seatLimit":  null,
+    "registrationPolicy":  "paid-note-link",
+    "notes":  "Synchronized from the live Business Platform purchaser-license endpoint after anonymous health verification."
 }
