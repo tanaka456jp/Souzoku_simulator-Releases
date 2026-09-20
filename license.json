@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "productId": "souzoku-simulator",
+  "mode": "email-registration",
+  "enabled": false,
+  "endpointUrl": "",
+  "cacheDays": 30,
+  "deviceBinding": false,
+  "seatLimit": null,
+  "registrationPolicy": "paid-note-link",
+  "notes": "Enable only after the Google Apps Script web app is deployed and verified. Existing v1.4.0 clients do not read this file."
+}
