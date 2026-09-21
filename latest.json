@@ -5,6 +5,6 @@
     "channel": "stable",
     "sha256": "a45a89ac6f9bfeee2a00414a9c223a9fd9b0fdc419c48d09704f13d63ee981c8",
     "releaseNotes": "Ver1.5.0: 有料版購入者向けメールアドレス認証を追加。初回オンライン認証後は30日間キャッシュし、端末固定・台数制限なし。Business Platformから購入者ライセンスを管理可能。",
-    "downloadUrl": "https://github.com/tanaka456jp/Souzoku_simulator-Releases/releases/download/v1.5.0/Souzoku_Simulator_Ver1.5.0_Update.xlsm",
+    "downloadUrl": "https://raw.githubusercontent.com/tanaka456jp/Souzoku_simulator-Releases/main/updates/Souzoku_Simulator_Ver1.5.0_Update.xlsm",
     "customerReady": true
 }
