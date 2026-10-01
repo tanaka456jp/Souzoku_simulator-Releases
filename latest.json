@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "product":  "souzoku-simulator",
-    "version":  "1.5.0",
+    "version":  "1.6.0",
     "channel":  "stable",
-    "sha256":  "bb19cb2d59a51f8ff87b7d47f96d99bd0163a17e58a640c6e273c03acd07dd00",
-    "releaseNotes":  "Ver1.5.0: 購入者メール認証に加え、更新ファイルのSHA-256検証処理を修正。今後の自動更新で改行を含まない64文字SHAを正しく検証します。",
-    "downloadUrl":  "https://raw.githubusercontent.com/tanaka456jp/Souzoku_simulator-Releases/main/updates/Souzoku_Simulator_Ver1.5.0_Update.xlsm",
+    "sha256":  "45dcbb14571fff52ccd068af45ac979d27fae837ef195eb28452368914d05538",
+    "releaseNotes":  "Ver1.6.0: Adds a customer-ready Word calculation explanation for the recommended first-inheritance plan, with portrait A4 layout, balanced two-page pagination, formula details, gift-tax credit explanation, and automated Excel/Word regression verification.",
+    "downloadUrl":  "https://raw.githubusercontent.com/tanaka456jp/Souzoku_simulator-Releases/main/updates/Souzoku_Simulator_Ver1.6.0_Update.xlsm",
     "customerReady":  true
 }
