@@ -1,10 +1,10 @@
 {
-    "schemaVersion":  1,
-    "product":  "souzoku-simulator",
-    "version":  "1.6.0",
-    "channel":  "stable",
-    "sha256":  "45dcbb14571fff52ccd068af45ac979d27fae837ef195eb28452368914d05538",
-    "releaseNotes":  "Ver1.6.0: Adds a customer-ready Word calculation explanation for the recommended first-inheritance plan, with portrait A4 layout, balanced two-page pagination, formula details, gift-tax credit explanation, and automated Excel/Word regression verification.",
-    "downloadUrl":  "https://raw.githubusercontent.com/tanaka456jp/Souzoku_simulator-Releases/main/updates/Souzoku_Simulator_Ver1.6.0_Update.xlsm",
-    "customerReady":  true
+    "schemaVersion": 1,
+    "product": "souzoku-simulator",
+    "version": "1.6.0",
+    "channel": "stable",
+    "sha256": "45dcbb14571fff52ccd068af45ac979d27fae837ef195eb28452368914d05538",
+    "releaseNotes": "Ver1.6.0: 推奨プランの第一次相続税について、計算根拠をWordで自動出力する標準機能を追加。A4縦・2ページ構成で、贈与加算、基礎控除、法定相続分、実取得割合、贈与税額控除、最終税額まで計算式付きで整理します。",
+    "downloadUrl": "https://raw.githubusercontent.com/tanaka456jp/Souzoku_simulator-Releases/main/updates/Souzoku_Simulator_Ver1.6.0_Update.xlsm",
+    "customerReady": true
 }
